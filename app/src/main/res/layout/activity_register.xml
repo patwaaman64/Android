@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Age" />
+    <EditText
+        android:id="@+id/newusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Username" />
+    <EditText
+        android:id="@+id/newpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/newregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:onClick="register"
+        android:layout_marginLeft="150dp"/>
+
+    <Button
+        android:id="@+id/newgoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register with Google"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:id="@+id/newfacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register with Facebook"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:id="@+id/tosignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to signin"
+        android:layout_marginLeft="120dp"
+        android:onClick="signin"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
